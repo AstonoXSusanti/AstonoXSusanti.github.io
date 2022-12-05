@@ -1,0 +1,339 @@
+.bg1{
+    background-color: #DEFF6A;
+    height: 450px;
+}
+button{
+    background-color: black;
+    width: fit-content;
+}
+.logo1{
+    height: 70px;
+}
+.logo1 , .judul1{
+    display: flex;
+}
+.bagian1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 34px;
+}
+.bagian1 p{
+    margin: auto;
+}
+.foto1{
+    background-image :url("New Folder/3135715-removebg-preview.png")
+}
+.foto1{
+        height:250px;
+        width: 275px;
+        border-radius:50% ; 
+        background-size: cover;
+}
+.navigasi{
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-between;
+    border-bottom: solid;
+   
+}
+.judul1{
+    align-items: center;
+    gap: 10px;
+}   
+.merah{
+    color: #F15656;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.bagian1{
+    padding-top: 20px;
+}
+.bg2{
+    border:5px solid#109BD9;
+    background-color: #109BD9;
+    margin: 50px 100px;
+}
+.bg3{
+    background-color: #DEFF6A;
+}
+body{
+    margin: auto;
+    background-color: #DEFF6A;
+}
+.judul3{
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+}
+.judul3 h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-bottom: 5px solid white;
+    width: 10%;
+}
+/* AI */
+.bintangai{
+    max-width: 200px;
+    display: flex;
+}
+.bintangai .putih{
+    width: 100px;
+    border: 10px solid white;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.bintangai .kuning{
+    width: 400px;
+    border: 10px solid yellow;
+    background-color: yellow;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.ai1{
+    display: flex;
+    place-items: center;
+}
+.kuning .p{
+    margin: 0;
+}
+
+/* XD */
+.bintangbootsrap .putih1{
+    width: 100px;
+    border: 10px solid white;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.bintangbootsrap .kuning1{
+    width: 650px;
+    border: 10px solid yellow;
+    background-color: yellow;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.bootsrap1{
+    display: flex;
+    place-items: center;
+}
+.bintangbootsrap{
+    max-width: 200px;
+    display: flex;
+}
+/* persen */
+.pb , .pa , .pbb , .perseni , .persenusa , .persencina{
+    margin: 0;
+    display: flex;
+    justify-content: end;
+}
+/* Blender */
+.bintangblender .putih2{
+    width: 100px;
+    border: 10px solid white;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.bintangblender .kuning2{
+    width: 200px;
+    border: 10px solid yellow;
+    background-color: yellow;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.blender1{
+    display: flex;
+    place-items: center;
+}
+.bintangblender{
+    max-width: 200px;
+    display: flex;
+}
+
+.gambar1{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.bintangai , .bintangblender , .bintangbootsrap{
+    padding: 0 50px;
+}
+/* language */
+.bahasa h1 , .mywork h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-bottom: 5px solid white;
+    width: 130px;
+}
+.bahasa , .mywork{
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+}
+/* usa */
+.bintangusa .putihusa{
+    width: 100px;
+    border: 10px solid white;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.bintangusa .kuningusa{
+    width: 400px;
+    border: 10px solid yellow;
+    background-color: yellow;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.usa{
+    display: flex;
+    place-items: center;
+}
+.bintangusa{
+    max-width: 200px;
+    display: flex;
+}
+/* indo */
+.bintangindo .putihindo{
+    width: 100px;
+    border: 10px solid white;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.bintangindo .kuningindo{
+    width: 200000px;
+    border: 10px solid yellow;
+    background-color: yellow;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.indo{
+    display: flex;
+    place-items: center;
+}
+.bintangindo{
+    max-width: 200px;
+    display: flex;
+}
+/* cina */
+.bintangcina .putihcina{
+    width: 200px;
+    border: 10px solid white;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.bintangcina .kuningcina{
+    width: 40px;
+    border: 10px solid yellow;
+    background-color: yellow;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.cina{
+    display: flex;
+    place-items: center;
+}
+.bintangcina{
+    max-width: 200px;
+    display: flex;
+}
+.bintangcina , .bintangindo , .bintangusa{
+    padding:0 50px ;
+}
+/* My Work */
+.border1 , .border2 , .border3{
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+}
+.Lighting , .imlek , .blenderdesign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.garnier{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+button{
+    color: white;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.deskripsi1 , .deskripsi2 , .deskripsi3{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-items: center;
+}
+.vihara , .kamar{
+    display: flex;
+}
+.contact h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-bottom: 3px solid white;
+    width: 1000px;
+}
+.contact{
+    display: flex;
+    place-items: center;
+    flex-direction: column-reverse;
+}
+.gambarorang{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sosmed{
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}
+.sosmed img{
+    width: 100px;
+    height: 100px;
+}
+.ig{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
